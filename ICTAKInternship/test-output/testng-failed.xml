@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.ictak.testcases.AdminLoginTC">
+        <methods>
+          <include name="setupconfig"/>
+          <include name="TC_6"/>
+        </methods>
+      </class> <!-- org.ictak.testcases.AdminLoginTC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
